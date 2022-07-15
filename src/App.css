@@ -1,0 +1,383 @@
+/*  COLORS  */
+/*  COLORS END  */
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Courier New';
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #000;
+  font-family: 'Noto Serif Display', serif;
+  background-color: #f0f0f0;
+  /*  LINKS AND BUTTONS  */
+  /*  LINKS AND BUTTONS END  */
+  /*  MAIN STYLES  */
+  /*  MAIN STYLES END  */
+}
+
+.App #logo {
+  border: none;
+}
+
+.App #logo img {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.App #logo img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #fff;
+}
+
+.App p {
+  padding: 5px;
+}
+
+.App a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  color: #535353;
+  border-bottom: 1px solid #535353;
+}
+
+.App a:hover {
+  color: #000;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.App .button {
+  width: 150px;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App .button:hover {
+  background-color: #000;
+  cursor: pointer;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  color: #fff;
+}
+
+.App .socialLink {
+  border: none;
+}
+
+.App .socialLink img {
+  width: 50px;
+  margin: 20px;
+}
+
+.App .mailLink {
+  text-transform: none;
+  font-size: 0.9em;
+  display: block;
+  color: #535353;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.App .mailLink:hover {
+  color: #000;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.App .flexboxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App form {
+  margin: 50px auto;
+  max-width: 800px;
+  display: none;
+}
+
+.App form input[type=text], .App form input[type=email], .App form textarea {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  letter-spacing: 2px;
+}
+
+.App form textarea {
+  min-height: 150px;
+}
+
+.App #cookieBox {
+  border-top: 2px solid #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #535353;
+  color: #fff;
+}
+
+.App #cookieBox h3, .App #cookieBox h4 {
+  padding: 5px;
+}
+
+.App #cookieBox button {
+  font-size: 1.2em;
+  border: 1px solid #fff;
+  background-color: #535353;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.App #cookieBox button:hover {
+  background-color: #fff;
+  color: #000;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.App .hide {
+  display: none;
+}
+
+.App main#home {
+  margin: 40px auto 0 auto;
+  border-top: 1px solid #535353;
+}
+
+.App main#home #homeBackBox img {
+  width: 98vw;
+  height: 60vh;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.App main#home #homeContact {
+  padding-top: 40px;
+  margin: auto;
+}
+
+.App main#home #homeContact .socialLink img {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.App main#home #homeContact .socialLink img:hover {
+  background-color: #fff;
+}
+
+.App main#home #packageContainer {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 60px;
+  margin: 50px auto;
+}
+
+.App main#home #packageContainer a {
+  background-color: rgba(240, 240, 240, 0.658);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  padding: 0;
+  margin: 50px auto;
+}
+
+.App main#home #packageContainer a img {
+  width: 350px;
+  max-width: 90vw;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.App main#home #packageContainer a p {
+  margin: 10px auto;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.App main#services {
+  margin: 40px auto 0 auto;
+  min-height: 60vh;
+}
+
+.App main#services header nav#packageNavigation {
+  margin: 40px auto 40px auto;
+}
+
+.App main#services .packageSection .packageHeaderImage {
+  width: 1200px;
+  max-width: 90vw;
+  margin: 100px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App main#services .packageSection .portfolioImage {
+  width: 350px;
+  max-width: 90vw;
+  height: 500px;
+  margin: 5px;
+  border-radius: 3px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App main#services .packageSection .priceBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 60px auto;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #535353;
+}
+
+.App main#services .packageSection .priceBox div {
+  margin: 20px 120px;
+}
+
+.App main#services .packageSection h2 {
+  margin-top: 40px;
+}
+
+.App main#services .packageSection #modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(240, 240, 240, 0.658);
+}
+
+.App main#services .packageSection #modal #modalContent img {
+  margin-top: 3vh;
+  max-height: 95vh;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100vw;
+}
+
+.App main#contact {
+  margin: 40px auto 0 auto;
+}
+
+.App main#contact iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  margin-top: 40px;
+  display: block;
+}
+
+.App footer {
+  color: #fff;
+  background-color: #535353;
+  padding: 10px;
+}
+
+.App footer .socialLink img {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.App footer .socialLink img:hover {
+  background-color: #fff;
+}
+
+.App footer .mailLink {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.App footer .mailLink:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/*  MEDIA QUERIES  */
+@media screen and (max-width: 1000px) {
+  .App .flexboxContainer {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .App main#home #postContainer {
+    width: 100%;
+    margin-left: 0;
+  }
+  .App main#home #homeContact {
+    margin: auto;
+  }
+  .App main#home #packageContainer {
+    padding: 0;
+  }
+  .App main#services .package img {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .App main#services header nav#packageNavigation a {
+    display: inline-block;
+    margin: auto;
+  }
+  .App main#services .packageSection .priceBox {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .App main#services .packageSection .priceBox div {
+    margin: 30px;
+  }
+  .App main#services .packageSection .portfolioImage {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*  MEDIA QUERIES END  */
+/*# sourceMappingURL=App.css.map */
